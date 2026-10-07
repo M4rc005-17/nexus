@@ -293,7 +293,7 @@ nav a:hover::after {
   border: 1px solid #7c3aed;
   border-radius: 5px;
   width: 55%;
-  padding: 3%;
+  padding: 2%;
 }
 
 .contenuto-card .detail:hover {
