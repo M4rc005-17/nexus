@@ -13,9 +13,9 @@ body {
 
 header {
   height: 70px;
-  max-width: 1340px;
+  width: 100%;
   margin: 0 auto;
-  padding: 0 30px;
+  padding: 0 20px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -262,23 +262,23 @@ nav a:hover::after {
 }
 
 .contenuto-card {
-  padding: 0 10px;
+  padding: 5px 10px;
   display: flex;
   flex-direction: column;
 }
 
 .contenuto-card h3 {
   font-size: 14px;
-  margin: 10px 0;
+  margin: 5px 0;
 }
 
 .contenuto-card .bubble {
   font-size: 10px;
   background-color: #263252;
   color: #9fb3ce;
-  padding: 3%;
+  padding: 4px;
   border-radius: 30px;
-  margin: 0 3% 0 0;
+  margin: 0 5px 0 0;
 }
 
 .contenuto-card .detail {
@@ -289,11 +289,11 @@ nav a:hover::after {
   text-decoration: none;
   gap: 10px;
   color: #7c3aed;
-  margin-top: 6%;
+  margin-top: 10px;
   border: 1px solid #7c3aed;
   border-radius: 5px;
   width: 55%;
-  padding: 2%;
+  padding: 2px;
 }
 
 .contenuto-card .detail:hover {
